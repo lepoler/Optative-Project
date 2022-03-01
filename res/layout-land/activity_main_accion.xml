@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/action_9"
+    android:orientation="vertical"
+    tools:context=".MainActivityAccion">
+
+    <fragment
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="es.ua.eps.optativeproject.Menu2"
+
+        />
+
+    <ImageView
+        android:id="@+id/matrix"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/matrix_9"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/textAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matrix"
+
+
+        />
+
+    <Button
+        android:id="@+id/butonAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tickets"
+        android:layout_marginStart="150dp"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/butonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atras"
+        android:layout_marginStart="150dp"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/white"
+
+        />
+
+</LinearLayout>
+</ScrollView>

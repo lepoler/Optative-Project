@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/boardvertical_9"
+    tools:context=".MainActivity2AboutUs">
+
+    <TextView
+        android:id="@+id/descripción"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/AboutUs"
+        android:layout_marginTop="295dp"
+        android:layout_marginStart="145dp"
+
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atras"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/black"
+        />
+    <Button
+        android:id="@+id/llamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/llamada"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/black"
+        />
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>

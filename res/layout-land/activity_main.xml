@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pantallavertcolor_9"
+    tools:context=".MainActivity">
+
+   <fragment
+       android:id="@+id/menu"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       class="es.ua.eps.optativeproject.Menu2"
+
+       />
+
+    <TextView
+        android:id="@+id/pantalla1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/portada_nombre"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/cartelera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cartelera"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/white"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="140dp"
+        />
+
+
+    <Button
+        android:id="@+id/aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutUs"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/white"
+        android:layout_marginStart="212dp"
+
+        />
+    <Button
+        android:id="@+id/contacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/white"
+        android:layout_marginStart="212dp"
+
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/buscador"
+        android:layout_marginTop="300dp"
+        android:textColorHint="@color/white"
+        />
+
+
+
+</LinearLayout>
+</ScrollView>

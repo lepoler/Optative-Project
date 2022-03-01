@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pantallacolor_9"
+    tools:context=".MainActivity2Cartelera">
+
+
+    <Button
+        android:id="@+id/accion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accion"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="130dp"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/horror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horror"
+        android:layout_marginStart="130dp"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/española"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/española"
+        android:layout_marginStart="130dp"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/romance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/romance"
+        android:layout_marginStart="130dp"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/fiction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ficcion"
+        android:layout_marginStart="130dp"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>

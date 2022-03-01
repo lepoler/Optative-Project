@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">OptativeProject</string>
+    <string name="portada_nombre">Newman Cinema</string>
+    <string name="cartelera">BILLBOARD</string>
+    <string name="aboutUs">ABOUT US</string>
+    <string name="contact">CONTACT</string>
+    <string name="buscador">SEARCH...</string>
+    <string name="AboutUs">Aloha, my name is Pol Newman and you are visiting my project.\nI hope you will enjoy and find everithing you need it. \nIf you wan a give me a reference or something I can improve, please click the button, contact me, and gave me your feedback. \n\n XOXO</string>
+    <string name="atras">BACK</string>
+    <string name="sms">SMS</string>
+    <string name="llamada">CALL ME</string>
+    <string name="accion">ACTION</string>
+    <string name="romance">ROMANCE</string>
+    <string name="horror">HORROR</string>
+    <string name="ficcion">FICTION</string>
+    <string name="española">SPANISH</string>
+    <string name="matrix"> Matrix 4: A piece of shit. Because is Matrix and we need to watch it, but I guarantee is a fucking disaster. \n\n NOT AVAILABLE ANY MORE!</string>
+    <string name="tickets">TICKETS</string>
+    <string name="paramo">This film has the awarness of Sitges Festival, one of the most important horror festivals in Eruope.</string>
+    <string name="frag1">BILLBOARD</string>
+    <string name="frag2">ABOUT US</string>
+    <string name="frag3">ACCIÓN</string>
+
+</resources>
